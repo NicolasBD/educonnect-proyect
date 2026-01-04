@@ -1,0 +1,36 @@
+/* Header.css - Añadiendo estilos para la navegación */
+.app-header {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(44, 62, 80, 0.10);
+    max-width: 900px;
+    margin: 32px auto 24px auto;
+    padding: 32px 24px 18px 24px;
+    text-align: center;
+}
+
+.app-header img {
+    width: 120px;
+    margin: 10px 0 18px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 12px;
+}
+
+nav a {
+    color: #2d6cdf;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 6px 16px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+nav a:hover {
+    background: #e0eafc;
+    color: #1b3a6b;
+}
