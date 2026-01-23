@@ -2,10 +2,10 @@ import React from 'react'
 import './Ingresar.css'
 
 export default function Ingreso() {
-  return (
-    <body class="auth-body">
+  return (       
+    <body className="auth-body">
 
-    <div class="auth-container">
+    <div className="auth-container">
         <h2>Iniciar Sesión</h2>
 
         <form id="loginForm">
